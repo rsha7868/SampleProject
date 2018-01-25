@@ -17,8 +17,27 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for(int index = 0; index < 10; index++)
+    int i = 1;
+    int a = 75;
+    int o = 0;
+    
+    for(int i = o; i < a; i++)
     {
-        cout << "This is the " << index + 1 << " time in a loop" << endl;
+        cout << "This is the " << i << " time in a loop" << endl;
     }
 }
+void Controller :: start()
+{
+    int a = 15;
+    int b = 45;
+    int c = 50;
+    double = y;
+    
+    for(a + b + c = y)
+    {
+        cout << "The anwser is " << y << endl;
+    }
+}
+
+
+
