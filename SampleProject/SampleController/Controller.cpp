@@ -18,8 +18,8 @@ Controller :: Controller()
 void Controller :: start()
 {
     int i = 1;
-    int a = 75;
-    int o = 0;
+    int a = 1;
+    int o = 1;
 
     for(int i = o; i < a; i++)
     {
@@ -27,10 +27,10 @@ void Controller :: start()
     }
 }
 vector <int> gl;
-for(int i = 1; i <= 10; i++)
+for(int a = 1; a <= 10; a++)
     gl.push_size (5);
 {
-
+    return gl;
 }
 
 
