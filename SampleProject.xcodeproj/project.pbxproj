@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AAE259B201FBB8300238390 /* TimerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE2599201FBB8300238390 /* TimerController.cpp */; };
 		9ABEF299201A5E8B003E6626 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEF297201A5E8B003E6626 /* Controller.cpp */; };
 		9ABEF29B201A5E98003E6626 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEF29A201A5E98003E6626 /* Runner.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9AAE2599201FBB8300238390 /* TimerController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimerController.cpp; sourceTree = "<group>"; };
+		9AAE259A201FBB8300238390 /* TimerController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TimerController.hpp; sourceTree = "<group>"; };
 		9ABEF28C201A5D92003E6626 /* SampleProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABEF297201A5E8B003E6626 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		9ABEF298201A5E8B003E6626 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				9ABEF297201A5E8B003E6626 /* Controller.cpp */,
 				9ABEF298201A5E8B003E6626 /* Controller.hpp */,
 				9ABEF29A201A5E98003E6626 /* Runner.cpp */,
+				9AAE2599201FBB8300238390 /* TimerController.cpp */,
+				9AAE259A201FBB8300238390 /* TimerController.hpp */,
 			);
 			path = SampleController;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABEF299201A5E8B003E6626 /* Controller.cpp in Sources */,
+				9AAE259B201FBB8300238390 /* TimerController.cpp in Sources */,
 				9ABEF29B201A5E98003E6626 /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

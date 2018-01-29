@@ -42,7 +42,14 @@ int main()
 //    {
 //        cout << "value of v = " << *v << endl;
 //    }
-    
+    string name = "Ryan Sharp";
+    cout << name << endl;
+    int i = 0;
+    int a = 13;
+    int b = 31;
+    for(i = 0; a < b; i++)
+    {
+        
     
     
     
