@@ -17,5 +17,14 @@ class Timer
 {
     
 };
+private:
+clock_t executionTime;
+public:
+Timer();
+void startTimer();
+void stopTimer();
+void resetTimer();
+void displayTimer();
+long getTimeInMicroseconds();
 
 #endif /* TimerController_hpp */
